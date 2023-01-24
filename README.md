@@ -1,4 +1,9 @@
 # 05 Third-Party APIs: Work Day Scheduler
+Introducing a breakthrough in worrk day planning! I give you the Work Day Scheduler.
+This took me quite a bit to figure out and implement. 
+
+
+
 
 ## Your Task
 
