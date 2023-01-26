@@ -34,5 +34,14 @@ function colorChange() {
     }
   });
 }
+$(".saveBtn").click(function () {
+  words = $(this).siblings(".input").val();
 
+  hourInfo = $(this).siblings(".hour").text();
+
+  localStorage.setItem(hourInfo, JSON.stringify(words));
+
+  colorChange();
+  renderText();
+})
 
